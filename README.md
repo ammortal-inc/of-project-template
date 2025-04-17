@@ -1,6 +1,6 @@
 # OpenFrameworks Project Template	
 
-This repository sets forth a template that allows versioning of OpenFrameworks and its Addons. It has been used by [Local Projects](https://localprojects.com/) across many museum exhibits.
+This repository sets forth a template that allows versioning of OpenFrameworks and its Addons.
 
 
 
@@ -10,9 +10,9 @@ This repository sets forth a template that allows versioning of OpenFrameworks a
 ```bash
 git clone --recursive <repo>
 ./install_addons.sh
-./OpenFrameworks/scripts/dev/download_libs.sh -p <platform> -v <version>
+./OpenFrameworks/scripts/dev/download_libs.sh
 ```
-where `<repo>` = url of your new repo, `<platform>` = one of {`osx`, `linux`, `vs2017`, etc.}, `<version>` = latest OF version (`0.11.2`).
+where `<repo>` = url of your new repo. The download_libs script reveals additional args; however, running without args will download for your system with the stable (nightly) v12 build.
 _Note: Make sure `unzip`, `curl`, `wget`, and `rsync` are installed._
 
 
